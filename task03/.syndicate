@@ -1,0 +1,70 @@
+name: task03
+locks:
+  modification_lock:
+    last_modification_date: '2025-03-04T09:43:37Z'
+    is_locked: false
+    initiator: macha_kavya
+events:
+- operation: deploy
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  deploy_name: task03
+  time_start: '2025-03-04T15:13:23Z'
+  time_end: '2025-03-04T15:13:37Z'
+  duration_sec: 14.416
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  time_start: '2025-03-04T15:12:50Z'
+  time_end: '2025-03-04T15:13:00Z'
+  duration_sec: 10.804
+  status: succeeded
+- operation: upload
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  time_start: '2025-03-04T15:12:55Z'
+  time_end: '2025-03-04T15:13:00Z'
+  duration_sec: 5.192
+  status: succeeded
+- operation: package_meta
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  time_start: '2025-03-04T15:12:55Z'
+  time_end: '2025-03-04T15:12:55Z'
+  duration_sec: 0.006
+  status: succeeded
+- operation: assemble
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  time_start: '2025-03-04T15:12:52Z'
+  time_end: '2025-03-04T15:12:55Z'
+  duration_sec: 3.599
+  status: succeeded
+- operation: assemble_node
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  time_start: '2025-03-04T15:12:52Z'
+  time_end: '2025-03-04T15:12:55Z'
+  duration_sec: 3.59
+  status: succeeded
+- operation: test
+  initiator: macha_kavya
+  time_start: '2025-03-04T15:12:52Z'
+  time_end: '2025-03-04T15:12:52Z'
+  duration_sec: 0.001
+  status: succeeded
+latest_deploy:
+  initiator: macha_kavya
+  bundle_name: task03_250304.151250
+  deploy_name: task03
+  time_start: '2025-03-04T15:13:23Z'
+  time_end: '2025-03-04T15:13:37Z'
+  duration_sec: 14.416
+  is_succeeded: true
+build_projects_mapping:
+  nodejs: app
+lambdas:
+  hello_world:
+    runtime: nodejs
